@@ -328,10 +328,11 @@ body {
 
     background: rgba(0, 76, 232, 0.05);
 }
+
 .current-target .card-container .js-card {
 
-   
-background: rgba(255, 223, 0, 0.05);
+
+    background: rgba(255, 223, 0, 0.05);
 }
 
 .current-target .card-container .card img {
@@ -369,3 +370,86 @@ background: rgba(255, 223, 0, 0.05);
     text-decoration-line: underline;
 
 }
+
+
+/* ---------------- */
+.support {
+    width: 1000px;
+    height: 295px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 61px 45px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+
+}
+
+.support .support-info {
+    width: 938px;
+    height: 174px;
+    margin: 32px auto;
+
+}
+
+.support .support-info h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.support .support-info p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin: 30px 0px;
+}
+
+.support .support-info #user-input {
+    width: 400px;
+    /* height: 53px; */
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+
+.support .support-info #submit {
+
+    padding: 17px 30px;
+}
+
+/* ----------------- */
+
+footer {
+    margin-top: 75px;
+}
+
+.footer-container {
+    width: 1071px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+footer .footer-container h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+
+footer .footer-container .icons {}
+
+footer .footer-container .icons img {}
