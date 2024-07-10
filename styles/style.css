@@ -5,8 +5,9 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: "Azeret Mono", monospace; 
+
+body {
+    font-family: "Azeret Mono", monospace;
 }
 
 .navbar {
@@ -230,4 +231,47 @@ body{
 
 .web-dev-contant-2 .web-dev-contant-img img {
     width: 215px;
+}
+
+/* ---------------------- */
+
+.inspiration {
+    width: 1071px;
+    margin: auto;
+}
+
+.inspiration .inspiration-title {
+    width: 800px;
+    margin: auto;
+}
+
+.inspiration .inspiration-title h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: center;
+    margin: 23px 0px;
+}
+
+.inspiration .inspiration-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    text-align: center;
+    margin: 23px 0px;
+}
+.inspiration .youtube-video{
+    width: 1171px;
+    padding: 30px;
+}
+.inspiration .youtube-video iframe{
+    width: 1011px;
+    height: 515px;
+    margin: 15px 0px;
+    border-radius: 15px;
 }
